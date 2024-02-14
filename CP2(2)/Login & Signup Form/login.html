@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+
+<html>
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login into Language Learner</title>
+    <link rel="stylesheet" href="login.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css" />
+    <script src="login.js"> </script>
+</head>
+
+<body>
+    <div class="wrapper">
+        <span>
+            <header>Language </header>
+            <header style="color:crimson">Learner</header>
+        </span>
+        <main style="margin-top : 10px;">Enter your credentials to Login</main>
+
+        <form method="post">
+            <div class="field email">
+                <div class="input-area">
+                    <input type="text" placeholder="Email Address" id="username" />
+                    <i class="icon fas fa-envelope"></i>
+                </div>
+                <div class="field password">
+                    <div class="input-area">
+                        <input type="password" placeholder="Password" id="password" />
+                        <i class="icon fas fa-lock"></i>
+
+                    </div>
+
+
+                    <input type="submit" name="" value="Login" onclick="validate()" />
+        </form>
+        <div class="sign-txt">Don't have an account?<a style="margin-left:5px" href="signup.html" target="_blank">Open a
+                free one! </a></div>
+    </div>
+
+</body>
+
+</html>

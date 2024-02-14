@@ -1,0 +1,115 @@
+@import url(https://fonts.googleapis.com/css?family=Montserrat:400,500,80);
+
+* {
+    font-family: 'Montserrat', sans-serif;
+
+}
+
+#vocab span {
+    cursor: pointer;
+    display: inline-block;
+    position: relative;
+    transition: 0.5s;
+}
+
+#vocab span:after {
+
+    content: '\00bb';
+    position: absolute;
+    opacity: 0;
+    top: 0;
+    right: -20px;
+    transition: 0.5s;
+}
+
+#vocab:hover span {
+    padding-right: 25px;
+}
+
+#vocab:hover span:after {
+    opacity: 1;
+    right: 0;
+}
+
+#vocab {
+    border-radius: 4px;
+    color: white;
+    background-color: crimson;
+    margin-left: 390px;
+    margin-top: 200px;
+    margin-right: 25px;
+    height: 100px;
+    width: 200px;
+    font-size: 25px;
+}
+
+#art {
+    border-radius: 4px;
+    height: 100px;
+    width: 200px;
+    margin-left: 25px;
+    margin-right: 25px;
+    font-size: 25px;
+    color: white;
+    background-color: crimson;
+}
+
+#art span {
+    cursor: pointer;
+    display: inline-block;
+    position: relative;
+    transition: 0.5s;
+}
+
+#art span:after {
+    content: '\00bb';
+    position: absolute;
+    opacity: 0;
+    top: 0;
+    right: -20px;
+    transition: 0.5s;
+}
+
+#art:hover span {
+    padding-right: 25px;
+}
+
+#art:hover span:after {
+    opacity: 1;
+    right: 0;
+}
+
+#verb {
+    border-radius: 4px;
+    height: 100px;
+    width: 200px;
+    margin-left: 25px;
+    font-size: 25px;
+    background-color: crimson;
+    color: white;
+}
+
+#verb span {
+    cursor: pointer;
+    display: inline-block;
+    position: relative;
+    transition: 0.5s;
+}
+
+#verb span:after {
+    content: '\00bb';
+    position: absolute;
+    opacity: 0;
+    top: 0;
+    right: -20px;
+    transition: 0.5s;
+}
+
+#verb:hover span {
+    padding-right: 25px;
+}
+
+#verb:hover span:after {
+    opacity: 1;
+    right: 0;
+}

@@ -1,0 +1,31 @@
+* {
+    color: rgb(0, 34, 222);
+}
+
+h1 {
+    text-align: center;
+    font-size: 3rem;
+}
+
+body {
+    background-color: black;
+}
+
+.service-bottom {
+    background-color:white;
+    padding: 10px;
+    border-radius: 20px;
+    border-width: 2px;
+    border-style: solid;
+    margin: 10px;
+
+}
+
+.service-bottom:hover {
+    border-width: 5px;
+    border-color: rgb(170, 21, 27);
+}
+
+a {
+    text-decoration: none;
+}
